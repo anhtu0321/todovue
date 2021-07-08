@@ -1,0 +1,20 @@
+body {
+  background: #1abcfc;
+  background: radial-gradient(circle, #1abcfc 32%, #4c64ff 100%);
+  width: 100vw;
+  height: 100vh;
+}
+
+#app .wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#app .wrap h1 {
+  color: white;
+}
+
